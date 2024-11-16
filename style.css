@@ -61,20 +61,27 @@ li {
     margin-bottom: 10px;
 }
 
-
-
 /* JOJO'S CODE BELOW vvvvvv*/
 /* Hero Section Styling */
 .hero {
     position: relative;
     width: 100%;
     height: 80vh;
-    background: url('dog.png') no-repeat center center/cover;
+    background: url('dog.png') no-repeat center center;
+    background-size: cover; /* Default behavior */
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
     text-align: center;
+}
+
+/* Responsive Adjustment for Hero Section */
+@media (min-width: 1200px) {
+    .hero {
+        background-size: contain; /* Adjust image behavior for larger screens */
+        height: 70vh; /* Reduce hero height for better proportions */
+    }
 }
 
 .overlay {
@@ -170,7 +177,6 @@ li {
     background-color: #eeeee4;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 .gallery-container {
     width: 80%;
