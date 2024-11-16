@@ -61,6 +61,9 @@ li {
     margin-bottom: 10px;
 }
 
+
+
+/* JOJO'S CODE BELOW vvvvvv*/
 /* Hero Section Styling */
 .hero {
     position: relative;
@@ -160,6 +163,15 @@ li {
 }
 
 /* Gallery Page Styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eeeee4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 .gallery-container {
     width: 80%;
     margin: 0 auto;
@@ -181,7 +193,7 @@ li {
 }
 
 .gallery-item {
-    background-color: #eeeee4;
+    background-color: #408c93;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
